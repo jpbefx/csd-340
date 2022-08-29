@@ -1,0 +1,63 @@
+#page-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#Movies {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 60%;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+#Unordered-List {
+    list-style-type: upper-roman;
+}
+
+#Learned {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    padding: 15px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+#footer {
+    margin-top: 60%;
+    width: 100%;
+}
+
+#back-to-top {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#favorite-website, #back-to-top {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#favorite-website:hover, #back-to-top:hover {
+    text-decoration: underline;
+}
