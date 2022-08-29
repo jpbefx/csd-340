@@ -38,7 +38,7 @@ li {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     font-weight: 300;
     border: 1px dashed red;
-    padding: 15px;
+    border-radius: 15px;
     list-style-position: inside;
     list-style-type: upper-roman;
 }
