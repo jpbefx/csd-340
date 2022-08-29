@@ -1,0 +1,30 @@
+html {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #3c275a;
+    color: #fff;
+    border: #d6a800;
+    border: 1px;
+    padding: 10px;
+}
+
+a:link {
+    color: #3c275a;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #d6a800;
+    color: #4f3674;
+}
+
+a:visited {
+    color: #3c275a;
+}
