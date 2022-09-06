@@ -3,6 +3,7 @@ html {
 }
 body {
     font-size: 16px;
+    text-align: center;
 }
 p {
     font-family: 'Quatrocento', Georgia, 'Times New Roman', serif;
@@ -15,11 +16,13 @@ h1, h2 {
 h1 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 3.053em;
+    font-size: 3.052em;
     word-spacing: 0.5em;
     margin: 0%;
+    text-align: center;
 }
 h2 {
+    font-weight: 500;
     font-size: 2.441em;
     word-spacing: 0.2em;
     margin: 0%;
@@ -29,20 +32,27 @@ h2 {
 address {
     font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
     text-align: center;
-}
-p a {
     font-weight: bold;
     font-size: 1.25em;
     color: #4F3674;
     text-decoration: none;
 }
+
+
+
 a:active {
     color: #d6a800;
+    text-decoration: none;
 }
 a:visited {
     color: darkred;
-
+    text-decoration: none;
 }
+
+a:hover {
+    color: #D6A800;
+}
+
 p[sentence] {
     font-style: italic;
 }
