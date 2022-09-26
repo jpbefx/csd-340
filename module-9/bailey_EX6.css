@@ -30,7 +30,7 @@ h1{
 }
 
 #container {
-    margin: 2% top, 5% left, 5% right, 100px bottom;
+    margin: 2% 5% 100px 5%;
 
     /*
     margin-top: 2%;
