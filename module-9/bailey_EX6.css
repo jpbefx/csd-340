@@ -30,10 +30,31 @@ h1{
 }
 
 #container {
+    margin: 2% top, 5% left, 5% right, 100px bottom;
+
+    /*
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
+    */
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px #ddd solid;
+    padding: 8px;
 }
 
 .card {
@@ -58,22 +79,31 @@ h1{
 }
 
 footer {
-    color: #685684;
-    position: absolute;
+    
+    position: fixed;
+    left: 0%;
     bottom: 0%;
+    background-color: #685684;
     width: 100%;
+    
+    /*
+    padding: 50px;
+    position: absolute;
+    */
 }
 
 footer p {
-    color: #bbc4cc;
-    font-weight: 400;
-    float: right;
-    padding: 10px;
+    color: white;
+    font-weight: 700;
+    float: left;
     font-style: italic;
+    /*padding: 10px;*/
 }
 
 footer a {
     text-decoration: none;
+    font-weight: 700;
+    float: right;
     color: white;
 }
 
